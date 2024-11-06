@@ -33,6 +33,7 @@ services:
       
   db1:
     image: zookeeper_demo:latest
+    build: .
     hostname: db1
     ports:
       - 8081:8081
@@ -41,6 +42,7 @@ services:
 
   db2:
     image: zookeeper_demo:latest
+    build: .
     hostname: db2
     ports:
       - 8082:8081
@@ -49,6 +51,7 @@ services:
 
   db3:
     image: zookeeper_demo:latest
+    build: .
     hostname: db3
     ports:
       - 8083:8081
