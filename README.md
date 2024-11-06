@@ -1,4 +1,10 @@
-### GitLab [![build status](https://gitlab.com/bikas.katwal10/zookeeper-demo/badges/master/build.svg)](https://gitlab.com/bikas.katwal10/zookeeper-demo/pipelines)
+### Fork from https://github.com/bkatwal/zookeeper-demo
+
+## Changes from fork
+
+- Added Dockerfile to create the demo application as a docker image
+- Added docker-compose file to start up a local cluster of 3 zookeeper instances and 3 application instances
+
 
 ![alt text](https://github.com/bkatwal/zookeeper-demo/blob/master/ZookeeperDemo.png)
 
